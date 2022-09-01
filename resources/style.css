@@ -146,9 +146,6 @@ main {
     justify-items: center;
 }
 
-.introduction-text {
-}
-
 .introduction-text h2 {
     text-align: center;
     padding-bottom: 2rem;
@@ -156,7 +153,7 @@ main {
 
 .introduction-text p {
     max-width: 45rem;
-    text-align: justify;
+
 }
 
 /* skills and experience */
@@ -203,8 +200,54 @@ main {
     border: solid 1px black;
     border-radius: 1rem;
     background-color: black;
-    padding: 1rem;
+    padding: 1.5rem;
 
+
+}
+
+/* closing banner */
+
+#cta-closing {
+    width: 100%;
+    height: 30rem;
+    display: flex;
+    background-image: url("./images/cta-banner.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0px;
+    justify-content: center;
+    align-items: center;
+}
+
+#cta-text-closing {
+    background-color: #525252;
+    padding: 1rem;
+    border: solid 1px #525252;
+    border-radius: 20px;
+}
+
+.banner-header h3 {
+    font-size: 1.5rem;
+    color: white;
+    margin: 1rem;
+
+}
+
+.banner-button {
+    margin: 4px;
+    padding: 0.3rem;
+    background-color: lightgrey;
+    border: solid 1px lightgray;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.banner-button a {
+    text-decoration: none;
+    text-align: center;
+    color: black;
 
 }
 
@@ -235,3 +278,16 @@ footer span {
     width: 100%;
     
 }
+
+/* media queries */
+
+@media only screen and (min-width: 360px) and (max-width: 480px) {
+    html {
+        font-size: 12px;
+        }
+
+    header li a {
+       font-size: 0.8rem;
+    }
+}
+    
