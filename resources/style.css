@@ -43,7 +43,7 @@ header {
 .navbar-content ul {
     display: flex;
     align-items: center;
-    margin-right: 50px;
+    margin-right: 3.25rem;
     list-style-type: none;
     flex-shrink: 1;
 }
@@ -105,6 +105,7 @@ main {
     height: auto;
     align-content: center;
     flex-shrink: 1;
+    text-align: center;
 
 }
 
@@ -168,8 +169,13 @@ main {
 .skills-container h2 {
     width: 100%;
     text-align: center;
-    margin-top: 4rem;
+    margin-top: 3rem;
     margin-bottom: 3rem;
+}
+
+.skill {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
 }
 
 .skill img {
@@ -183,6 +189,7 @@ main {
     text-align: center;
     font-weight: 400;
     max-width: 24rem;
+    margin-top: 1.5rem;
 }
 
 .skill-button {
@@ -190,7 +197,7 @@ main {
     justify-content: center;
     justify-items: center;
     display: flex;
-    margin-top: 3rem;
+    margin-top: 1rem;
     margin-bottom: 5rem;
 }
 
@@ -200,7 +207,8 @@ main {
     border: solid 1px black;
     border-radius: 1rem;
     background-color: black;
-    padding: 1.5rem;
+    padding: 1rem;
+    font-size: 1.5rem;
 
 
 }
@@ -255,6 +263,7 @@ main {
 
 footer {
     height: 5rem;
+    min-height: auto;
     background-color: black;
     display: flex;
     justify-content: space-between;
@@ -281,13 +290,55 @@ footer span {
 
 /* media queries */
 
-@media only screen and (min-width: 360px) and (max-width: 480px) {
+@media only screen and (min-width: 300px) and (max-width: 600px) {
+
     html {
         font-size: 12px;
-        }
+    }
+
+    header li {
+        padding-left: 0.8rem;
+        padding-right: 0.8rem;
+    }
+
+    .navbar-content ul {
+        margin-right: 1rem;
+    }
 
     header li a {
-       font-size: 0.8rem;
+       font-size: 1.2rem;
+    }
+
+    p {
+        font-size: 14px;
+        line-height: 1.3;
+        font-weight: 300;
+    }
+    
+    h2 {
+        font-size: 24px;
+        font-weight: 600;
+    }
+
+    footer .content {
+        font-size: 0.75rem;
+    }
+
+    .banner-text {
+        padding: 0.2rem;
+        border: solid 0.4px black;
+        width: fit-content;
+        
+    }
+
+    .banner-text h2, .banner-text h1 {
+        font-size: 1.1rem;
+    }
+
+    
+    #nav-logo img {
+        width: 3.25em;
+        height: 3.25em;
     }
 }
     
