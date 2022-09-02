@@ -18,6 +18,13 @@ h2 {
     font-weight: 600;
 }
 
+li {
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1.4;
+    padding: 0.3rem
+}
+
 /* header & nav */
 
 header {
@@ -92,6 +99,7 @@ main {
     flex-shrink: 1;
     align-items: center;
     justify-content: center;
+    opacity: 0.9;
 }
 
 .banner-text {
@@ -188,7 +196,7 @@ main {
 .skill p {
     text-align: center;
     font-weight: 400;
-    max-width: 24rem;
+    max-width: 20rem;
     margin-top: 1.5rem;
 }
 
@@ -226,6 +234,7 @@ main {
     margin: 0px;
     justify-content: center;
     align-items: center;
+    opacity: 0.85;
 }
 
 #cta-text-closing {
@@ -267,7 +276,7 @@ footer {
     background-color: black;
     display: flex;
     justify-content: space-between;
-    margin: 0;
+    margin: 0px;
     width: 100%;
 }
 
@@ -342,6 +351,25 @@ footer span {
         width: 3.25em;
         height: 3.25em;
     }
+
+    #cta-text-closing {
+        border: solid 0.5px #525252;
+        border-radius: 20px;
+    }
+    
+    .banner-header h3 {
+        font-size: 1.2rem;
+        color: white;
+        margin: 1rem;
+    
+    }
+    
+    .banner-button {
+        margin: 2px;
+        border: solid 0.5px lightgray;
+        border-radius: 20px;
+    }
+    
 }
 
 /*small phones */
@@ -396,6 +424,288 @@ footer span {
         width: 3.25em;
         height: 3.25em;
     }
+
+    #cta-text-closing {
+        border: solid 0.5px #525252;
+        border-radius: 20px;
+    }
+    
+    .banner-header h3 {
+        font-size: 1.2rem;
+        color: white;
+        margin: 1rem;
+    
+    }
+    
+    .banner-button {
+        margin: 2px;
+        border: solid 0.5px lightgray;
+        border-radius: 20px;
+    }
+    
+
 }
+
+/* experience page */
+
+.title {
+    padding-left: 1rem;
+    margin: 4rem;
+}
+
+.period, .location {
+    font-size: 14px;
+}
+
+.institution, .job-title, .company, .education-title, .language-title {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+/* experience, education, languages, and certifications grid */
+
+.experience-grid, .education-grid, .language-grid, .certification-grid {
+    display: grid;
+    grid-template-columns: 35% 65%;
+    margin: 3rem;
+}
+
+.date {
+    border-right: solid 1px #979797;
+    text-align: center;
+    padding: 0rem 2rem 1.5rem 1rem;
+    box-shadow: 0px 5px 0px -5px lightgray;
+
+}
+
+.experience {
+    padding: 0rem 1rem 1.5rem 5%;
+    box-shadow: 0px 5px 0px -5px lightgray;
+}
+
+.school {
+    border-right: solid 1px #979797;
+    text-align: center;
+    padding: 0rem 2rem 1.5rem 1rem;
+    box-shadow: 0px 5px 0px -5px lightgray;
+
+}
+
+.education {
+    padding: 0rem 1rem 1.5rem 5%;
+    box-shadow: 0px 5px 0px -5px lightgray;
+}
+
+.language-grid {
+    display: grid;
+    grid-template-columns: 35% 65%;
+    margin: 3rem;
+}
+
+.empty {
+    border-right: solid 1px #979797;
+    text-align: center;
+    padding: 0rem 2rem 1.5rem 1rem;
+    box-shadow: 0px 5px 0px -5px lightgray;
+
+}
+
+.language {
+    padding: 0rem 1rem 1.5rem 5%;
+    box-shadow: 0px 5px 0px -5px lightgray;
+}
+
+.light-font {
+    font-weight: 300;
+}
+
+.certification {
+    padding: 0rem 1rem 1.5rem 5%;
+    box-shadow: 0px 5px 0px -5px lightgray;
+}
+
+
+
+
+/* media queries */
+
+/* medium phones */
+
+@media only screen and (min-width: 360px) and (max-width: 600px) {
+
+    html {
+        font-size: 16px;
+    }
+
+    header li {
+        padding-left: 0.8rem;
+        padding-right: 0.8rem;
+    }
+
+    .navbar-content ul {
+        margin-right: 1rem;
+    }
+
+    header li a {
+       font-size: 1rem;
+    }
+
+    p {
+        font-size: 14px;
+        line-height: 1.3;
+        font-weight: 300;
+    }
+    
+    h2 {
+        font-size: 24px;
+        font-weight: 600;
+    }
+
+    footer .content {
+        font-size: 0.75rem;
+    }
+
+    .banner-text {
+        padding: 0.2rem;
+        border: solid 0.4px black;
+        width: fit-content;
+        
+    }
+
+    .banner-text h2, .banner-text h1 {
+        font-size: 0.9rem;
+    }
+
+    
+    #nav-logo img {
+        width: 3.25em;
+        height: 3.25em;
+    }
+
+    #cta-text-closing {
+        border: solid 0.5px #525252;
+        border-radius: 20px;
+    }
+    
+    .banner-header h3 {
+        font-size: 1.2rem;
+        color: white;
+        margin: 1rem;
+    
+    }
+    
+    .banner-button {
+        margin: 2px;
+        border: solid 0.5px lightgray;
+        border-radius: 20px;
+    }
+    
+    .period, .location {
+        font-size: 12px;
+    }
+    
+    .institution, .job-title, .company, .education-title, .language-title, .certification-title {
+        font-size: 16px;
+    }
+
+    .experience-grid, .education-grid, .language-grid, .certification-grid {
+        margin: 1rem;
+    }
+
+    .title {
+        padding-left: 0.4rem;
+        padding-bottom: 0.4rem;
+        margin: 0.8rem;
+        font-size: 22px;
+    }
     
     
+}
+
+/*small phones */
+
+@media only screen and (min-width: 0px) and (max-width: 359px) {
+
+    html {
+        font-size: 12px;
+    }
+
+    header li {
+        padding-left: 0.8rem;
+        padding-right: 0.8rem;
+    }
+
+    .navbar-content ul {
+        margin-right: 1rem;
+    }
+
+    header li a {
+       font-size: 1.1rem;
+    }
+
+    p {
+        font-size: 14px;
+        line-height: 1.3;
+        font-weight: 300;
+    }
+    
+    h2 {
+        font-size: 24px;
+        font-weight: 600;
+    }
+
+    footer .content {
+        font-size: 0.75rem;
+    }
+
+    .banner-text {
+        padding: 0.2rem;
+        border: solid 0.4px black;
+        width: fit-content;
+        
+    }
+
+    .banner-text h2, .banner-text h1 {
+        font-size: 0.9rem;
+    }
+
+    
+    #nav-logo img {
+        width: 3.25em;
+        height: 3.25em;
+    }
+
+    #cta-text-closing {
+        border: solid 0.5px #525252;
+        border-radius: 20px;
+    }
+    
+    .banner-header h3 {
+        font-size: 1.2rem;
+        color: white;
+        margin: 1rem;
+    
+    }
+    
+    .banner-button {
+        margin: 2px;
+        border: solid 0.5px lightgray;
+        border-radius: 20px;
+    }
+
+    .institution, .job-title, .company, .education-title, .language-title, .certification-title {
+        font-size: 14px;
+    }
+
+    .experience-grid, .education-grid, .language-grid, .certification-grid {
+        margin: 0.8rem;
+    }
+
+    .title {
+        padding-left: 0.4rem;
+        padding-bottom: 0.4rem;
+        margin: 0.8rem;
+        font-size: 18px;
+    }
+
+}
