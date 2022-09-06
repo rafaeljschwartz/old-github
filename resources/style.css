@@ -557,7 +557,7 @@ hr {
     }
 
     .deliverables li {
-        font-size: 14px;
+        font-size: 0.875rem;
     }
 
     .experience-banner-text {
@@ -615,7 +615,7 @@ hr {
     }
 
     .banner-text h2, .banner-text h1 {
-        font-size: 0.9rem;
+        font-size: 1.5rem;
     }
 
     .experience-banner-text h2 {
