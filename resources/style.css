@@ -303,156 +303,6 @@ footer span {
     
 }
 
-
-/* media queries */
-
-/* medium phones */
-
-@media only screen and (min-width: 360px) and (max-width: 600px) {
-
-    html {
-        font-size: 16px;
-    }
-
-    header li {
-        padding-left: 0.8rem;
-        padding-right: 0.8rem;
-    }
-
-    .navbar-content ul {
-        margin-right: 1rem;
-    }
-
-    header li a {
-       font-size: 1rem;
-    }
-
-    p {
-        font-size: 14px;
-        line-height: 1.3;
-        font-weight: 300;
-    }
-    
-    h2 {
-        font-size: 24px;
-        font-weight: 600;
-    }
-
-    footer .content {
-        font-size: 0.75rem;
-    }
-
-    .banner-text {
-        padding: 0.2rem;
-        border: solid 0.4px black;
-        width: fit-content;
-        
-    }
-
-    .banner-text h2, .banner-text h1 {
-        font-size: 0.9rem;
-    }
-
-    
-    #nav-logo img {
-        width: 3.25em;
-        height: 3.25em;
-    }
-
-    #cta-text-closing {
-        border: solid 0.5px #525252;
-        border-radius: 20px;
-    }
-    
-    .banner-header h3 {
-        font-size: 1.2rem;
-        color: white;
-        margin: 1rem;
-    
-    }
-    
-    .banner-button {
-        margin: 2px;
-        border: solid 0.5px lightgray;
-        border-radius: 20px;
-    }
-    
-}
-
-/*small phones */
-
-@media only screen and (min-width: 0px) and (max-width: 359px) {
-
-    html {
-        font-size: 12px;
-    }
-
-    header li {
-        padding-left: 0.8rem;
-        padding-right: 0.8rem;
-    }
-
-    .navbar-content ul {
-        margin-right: 1rem;
-    }
-
-    header li a {
-       font-size: 1.1rem;
-    }
-
-    p {
-        font-size: 14px;
-        line-height: 1.3;
-        font-weight: 300;
-    }
-    
-    h2 {
-        font-size: 24px;
-        font-weight: 600;
-    }
-
-    footer .content {
-        font-size: 0.75rem;
-    }
-
-    .banner-text {
-        padding: 0.2rem;
-        border: solid 0.4px black;
-        width: fit-content;
-        
-    }
-
-    .banner-text h2, .banner-text h1 {
-        font-size: 0.9rem;
-    }
-
-    
-    #nav-logo img {
-        width: 3.25em;
-        height: 3.25em;
-    }
-
-    #cta-text-closing {
-        border: solid 0.5px #525252;
-        border-radius: 20px;
-    }
-    
-    .banner-header h3 {
-        font-size: 1.2rem;
-        color: white;
-        margin: 1rem;
-    
-    }
-    
-    .banner-button {
-        margin: 2px;
-        border: solid 0.5px lightgray;
-        border-radius: 20px;
-    }
-    
-
-}
-
 /* experience page */
 
 .title {
@@ -507,6 +357,7 @@ footer span {
 .experience-banner-text h1, .experience-banner-text h2, .experience-banner-text p, .experience-banner-text a {
     color: white;
     margin: 1rem;
+
 }
 
 .social-icon {
@@ -631,6 +482,10 @@ hr {
        font-size: 1rem;
     }
 
+    footer {
+        height: fit-content;
+    }
+
     p {
         font-size: 14px;
         line-height: 1.3;
@@ -739,6 +594,10 @@ hr {
         font-weight: 600;
     }
 
+    footer {
+        height: fit-content;
+    }
+
     footer .content {
         font-size: 0.75rem;
     }
@@ -751,6 +610,14 @@ hr {
     }
 
     .banner-text h2, .banner-text h1 {
+        font-size: 0.9rem;
+    }
+
+    .experience-banner-text h2 {
+        font-size: 1.5rem;
+    }
+
+    .experience-banner-text p, .experience-banner-text a {
         font-size: 0.9rem;
     }
 
