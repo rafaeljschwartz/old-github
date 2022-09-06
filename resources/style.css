@@ -352,6 +352,7 @@ footer span {
     width: fit-content;
     height: auto;
     text-align: center;
+    min-width: 37.5rem;
 }
 
 .experience-banner-text h1, .experience-banner-text h2, .experience-banner-text p, .experience-banner-text a {
@@ -558,6 +559,10 @@ hr {
     .deliverables li {
         font-size: 14px;
     }
+
+    .experience-banner-text {
+        min-width: 0rem;
+    }
     
     
 }
@@ -668,6 +673,10 @@ hr {
 
     .deliverables li {
         font-size: 11px;
+    }
+
+    .experience-banner-text {
+        min-width: 0rem;
     }
 
 }
