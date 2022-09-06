@@ -25,6 +25,11 @@ li {
     padding: 0.3rem
 }
 
+.content {
+    max-width: 1366px;
+    margin: auto;
+}
+
 /* header & nav */
 
 header {
@@ -101,6 +106,7 @@ main {
     justify-content: center;
     opacity: 0.9;
 }
+
 
 .banner-text {
     position: relative;
@@ -297,6 +303,7 @@ footer span {
     
 }
 
+
 /* media queries */
 
 /* medium phones */
@@ -462,6 +469,80 @@ footer span {
     font-weight: 600;
 }
 
+/* experience banner */
+
+.experience-banner {
+    display: flex;
+    width: 100%;
+    height: 31.25rem;
+    background-image: url("./images/banner22.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    flex-shrink: 1;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.9;
+}
+
+.experience-banner-content {
+    max-width: 85.375rem;
+    min-height: 17.25rem;
+    
+}
+
+.experience-banner-text {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    position: relative;
+    padding: 1rem;
+    border: solid 1px black;
+    border-radius: 1rem;
+    background-color: black;
+    height: fit-content;
+    width: fit-content;
+    height: auto;
+    text-align: center;
+}
+
+.experience-banner-text h1, .experience-banner-text h2, .experience-banner-text p, .experience-banner-text a {
+    color: white;
+    margin: 1rem;
+}
+
+.social-icon {
+    max-width: 1rem;
+}
+
+.social-m {
+    text-decoration: none;
+    width: fit-content;
+    height: auto;
+}
+
+.contact-banner, .main-content-banner {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 25% 25% 25% 25%;
+    justify-items: center;
+    align-items: center;
+}
+
+hr {
+    width: 70%;
+    opacity: 0.8;
+}
+
+
+#download-cv {
+    color:#1b1b1b;
+    padding: 0.6rem;
+    background-color: #c6c1c1;
+    border: solid 1px #c6c1c1;
+    border-radius: 20px;
+    justify-content: center;
+    text-decoration: none;
+}
+
 /* experience, education, languages, and certifications grid */
 
 .experience-grid, .education-grid, .language-grid, .certification-grid {
@@ -618,6 +699,10 @@ footer span {
         margin: 1.2rem 0.8rem 0.8rem 0.8rem;
         font-size: 22px;
     }
+
+    .deliverables li {
+        font-size: 14px;
+    }
     
     
 }
@@ -694,18 +779,28 @@ footer span {
     }
 
     .institution, .job-title, .company, .education-title, .language-title, .certification-title {
-        font-size: 14px;
+        font-size: 13px;
     }
+
+
 
     .experience-grid, .education-grid, .language-grid, .certification-grid {
         margin: 0.8rem;
+    }
+
+    .period, .location {
+        font-size: 11px;
     }
 
     .title {
         padding-left: 0.4rem;
         padding-bottom: 0.4rem;
         margin: 1.2rem 0.8rem 0.8rem 0.8rem;
-        font-size: 18px;
+        font-size: 16px;
+    }
+
+    .deliverables li {
+        font-size: 11px;
     }
 
 }
