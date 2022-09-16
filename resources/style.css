@@ -1,5 +1,5 @@
 html {
-    font-family: "Roboto", sans-serif;
+    font-family: "Roboto", Helvetica, Arial, sans-serif;
     font-size: 16px;
 }
 
@@ -8,13 +8,13 @@ body {
 }
 
 p {
-    font-size: 18px;
+    font-size: 1.125rem;
     line-height: 1.3;
     font-weight: 300;
 }
 
 h2 {
-    font-size: 30px;
+    font-size: 1.875rem;
     font-weight: 600;
 }
 
@@ -123,13 +123,19 @@ main {
 
 }
 
-.banner-text h1, .banner-text h2 {
+.banner-text h1  {
     font-size: 1.5rem;
     color: white;
     margin: 1rem;
     height: auto;
 }
 
+.banner-text h2 {
+    font-size: 1.15rem;
+    color: white;
+    margin: 1rem;
+    height: auto;
+}
 /* about me */
 
 .introduction-bucket {
@@ -459,6 +465,11 @@ hr {
     box-shadow: 0px 5px 0px -5px lightgray;
 }
 
+.certification a {
+    color: #525252;
+    text-decoration: underline;
+}
+
 
 
 
@@ -490,17 +501,17 @@ hr {
     }
 
     p {
-        font-size: 14px;
+        font-size: 0.875rem;
         line-height: 1.3;
         font-weight: 300;
     }
     
     h2 {
-        font-size: 24px;
+        font-size: 1.5rem;
         font-weight: 600;
     }
 
-    footer .content {
+    footer .footer-content {
         font-size: 0.75rem;
     }
 
@@ -510,12 +521,7 @@ hr {
         width: fit-content;
         
     }
-
-    .banner-text h2, .banner-text h1 {
-        font-size: 1.5rem;
-    }
-
-    
+  
     #nav-logo img {
         width: 3.25em;
         height: 3.25em;
@@ -540,11 +546,11 @@ hr {
     }
     
     .period, .location {
-        font-size: 12px;
+        font-size: 0.75rem;
     }
     
     .institution, .job-title, .company, .education-title, .language-title, .certification-title {
-        font-size: 16px;
+        font-size: 1rem;
     }
 
     .experience-grid, .education-grid, .language-grid, .certification-grid {
@@ -605,8 +611,8 @@ hr {
         height: fit-content;
     }
 
-    footer .content {
-        font-size: 0.75rem;
+    footer .footer-content {
+        font-size: 0.85rem;
     }
 
     .banner-text {
@@ -614,10 +620,6 @@ hr {
         border: solid 0.4px black;
         width: fit-content;
         
-    }
-
-    .banner-text h2, .banner-text h1 {
-        font-size: 1.5rem;
     }
 
     .experience-banner-text h2 {
@@ -653,7 +655,7 @@ hr {
     }
 
     .institution, .job-title, .company, .education-title, .language-title, .certification-title {
-        font-size: 13px;
+        font-size: 1.083rem;
     }
 
 
@@ -663,7 +665,7 @@ hr {
     }
 
     .period, .location {
-        font-size: 11px;
+        font-size: 0.917rem;
     }
 
     .title {
@@ -674,7 +676,7 @@ hr {
     }
 
     .deliverables li {
-        font-size: 11px;
+        font-size: 0.917rem;
     }
 
     .experience-banner-text {
