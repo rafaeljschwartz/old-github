@@ -98,7 +98,7 @@ main {
     display: flex;
     width: 100%;
     height: 31.25rem;
-    background-image: url("./images/banner22.jpg");
+    background-image: url("./images/webp-images/banner22.webp");
     background-size: cover;
     background-repeat: no-repeat;
     flex-shrink: 1;
@@ -239,7 +239,7 @@ main {
     width: 100%;
     height: 30rem;
     display: flex;
-    background-image: url("./images/cta-banner.jpg");
+    background-image: url("https://www.rafaeljschwartz.com/images/webp-images/cta-banner.webp");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -333,7 +333,7 @@ footer span, footer a {
     display: flex;
     width: 100%;
     height: 31.25rem;
-    background-image: url("./images/banner22.jpg");
+    background-image: url("https://www.rafaeljschwartz.com/images/banner22.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     flex-shrink: 1;
