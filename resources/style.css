@@ -685,6 +685,22 @@ button:focus, input[type=submit]:focus {
     padding-bottom: 2.5rem;
 }
 
+/* thank you page*/
+
+.thank-you-section {
+    margin: 2em;
+    text-align: center;
+}
+
+.thank-you-section h3 {
+    font-size: 1.8em;
+    text-align: center;
+}
+
+#thankyou-social {
+    justify-content: center;
+}
+
 
 
 /* media queries */
