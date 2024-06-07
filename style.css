@@ -1,0 +1,214 @@
+/* General Styles */
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    color: #000000;
+    line-height: 1.6; /* Improve readability */
+    background-color: #F2F2F2; /* Light gray background */
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Hero Section Styles */
+/* Hero Section Styles */
+.hero {
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+}
+
+.hero video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+    filter: brightness(50%); /* Adjust brightness percentage as needed */
+}
+
+.hero .container {
+    position: relative;
+    display: flex;          /* Enable Flexbox for vertical centering */
+    flex-direction: column; /* Arrange content vertically */
+    justify-content: center; /* Center content vertically */
+    align-items: center;    /* Center content horizontally */
+    text-align: center;      /* Center align text within the container */
+    z-index: 1;
+    width: 60%;
+    margin: 100px auto; /* Adjusted margin for better spacing */
+    padding: 20px;
+    background-color: rgba(242, 242, 242, 0.85);
+    color: #FFFFFF;
+    border-radius: 4em;    
+}
+
+.logo {
+    height: 12em;
+    margin: 0, auto, 0.3em, auto;
+    display: block;
+}
+
+.hero h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #F2994A; /* Orange text */
+}
+
+.hero p {
+    font-size: 1.2rem; 
+    margin-bottom: 30px;
+    color: #000000; /* Black text */
+}
+
+.cta-button {
+    background-color: #9B51E0; 
+    color: #FFFFFF;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 50px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+    margin-bottom: 0.5em;
+}
+
+.cta-button:hover {
+    background-color: #772CE8; 
+}
+
+
+/* Value Proposition and Benefits Sections Styles */
+.value-proposition, .benefits {
+    padding: 50px 0;
+}
+
+.value-proposition {
+    background-color: #e5e5e5;
+}
+
+.benefits {
+    background-color: #ffffff;
+}
+
+.value-proposition .grid, 
+.benefits .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.value-proposition, 
+.benefits .text-container {
+    text-align: left;
+}
+
+.value-proposition h2, 
+.benefits h2 {
+    font-family: 'Poppins', sans-serif;
+    color: #2F80ED; 
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.value-proposition p, 
+.benefits p {
+    font-size: 1.2rem;
+}
+
+.value-proposition .image-container, 
+.benefits .image-container {
+    max-width: 400px; 
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.value-proposition img, 
+.benefits img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px; 
+}
+
+/* CTA Bottom Styles */
+.cta-bottom {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #FFFFFF;
+}
+
+.footer {
+    background-color: rgba(26,28,32,1); /* Dark background */
+    color: white;
+    text-align: center;
+    padding: 20px 0; /* Reduced padding */
+}
+
+.footer p {
+    font-size: 0.9rem; /* Smaller font size */
+    margin: 10px 0;   /* Reduced margin */
+}
+
+.footer a {
+    color: #2F80ED; /* Blue link color */
+    text-decoration: none;
+}
+
+/* Media Query for smaller screens */
+@media (max-width: 768px) { 
+    .value-proposition .grid, 
+    .benefits .grid {
+        grid-template-columns: 1fr; /* Single column on smaller screens */
+    }
+
+    .value-proposition .text-container,
+    .benefits .image-container {
+        order: -1; /* Place image above text on smaller screens */
+        max-width: 100%; /* Allow image to take full width on small screens */
+    }
+
+    .hero .container {
+        padding: 20px 10px; /* Further reduce padding on smaller screens */
+        width: 90%; /* Make the container wider on small screens */
+        margin: 50px auto; /* Adjust margin to reduce height */
+    }
+
+    .hero h1 {
+        font-size: 1.5rem; /* Adjust font size for smaller screens */
+        margin-bottom: 10px; /* Reduce bottom margin */
+    }
+
+    .hero p {
+        font-size: 1rem; /* Adjust font size for smaller screens */
+        margin-bottom: 20px; /* Reduce bottom margin */
+    }
+
+    .cta-button {
+        font-size: 1rem; /* Adjust button font size for smaller screens */
+        padding: 10px 20px; /* Adjust button padding for smaller screens */
+    }
+
+    .logo {
+        height: 8em; /* Adjust logo size for smaller screens */
+        margin: 0 auto 0.5em auto; /* Adjust margin for better spacing */
+    }
+
+    .benefits .text-one {
+        order: 1; /* Ensure text-one is first */
+    }
+
+    .benefits .image-one {
+        order: 2; /* Ensure image-one is second */
+    }
+}
